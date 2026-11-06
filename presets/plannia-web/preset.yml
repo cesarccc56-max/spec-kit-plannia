@@ -1,0 +1,46 @@
+schema_version: "1.0"
+
+preset:
+  id: "plannia-web"
+  name: "Plannia Web"
+  version: "1.0.0"
+  description: "Proceso Plannia para sitios web de clientes: constitucion web y plantillas con KPIs, SEO, accesibilidad, rendimiento y seguridad"
+  author: "cesarccc56-max"
+  repository: "https://github.com/cesarccc56-max/spec-kit-plannia"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=1.0.0"
+
+provides:
+  templates:
+    - type: "template"
+      name: "constitution-template"
+      file: "templates/constitution-template.md"
+      description: "Constitucion web: 9 fases, Definition of Done, WCAG 2.2 AA, Core Web Vitals, OWASP"
+      replaces: "constitution-template"
+
+    - type: "template"
+      name: "spec-template"
+      file: "templates/spec-web-addendum.md"
+      description: "Agrega a la spec: objetivo de negocio, KPI, audiencia, accion principal, sitemap y contenido"
+      strategy: "append"
+
+    - type: "template"
+      name: "plan-template"
+      file: "templates/plan-web-addendum.md"
+      description: "Agrega al plan: stack justificado, DESIGN.md, analitica, datos estructurados y presupuestos"
+      strategy: "append"
+
+    - type: "template"
+      name: "tasks-template"
+      file: "templates/tasks-web-addendum.md"
+      description: "Agrega a las tareas: criterio de salida por tarea y fase de QA obligatoria"
+      strategy: "append"
+
+tags:
+  - "web"
+  - "plannia"
+  - "accessibility"
+  - "performance"
+  - "seo"

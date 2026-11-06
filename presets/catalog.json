@@ -48,6 +48,30 @@
         "templates",
         "compatibility"
       ]
+    },
+    "plannia-web": {
+      "name": "Plannia Web",
+      "id": "plannia-web",
+      "version": "1.0.0",
+      "description": "Proceso Plannia para sitios web de clientes: constitucion web y plantillas con KPIs, SEO, accesibilidad, rendimiento y seguridad",
+      "author": "cesarccc56-max",
+      "repository": "https://github.com/cesarccc56-max/spec-kit-plannia",
+      "license": "MIT",
+      "bundled": true,
+      "requires": {
+        "speckit_version": ">=1.0.0"
+      },
+      "provides": {
+        "commands": 0,
+        "templates": 4
+      },
+      "tags": [
+        "web",
+        "plannia",
+        "accessibility",
+        "performance",
+        "seo"
+      ]
     }
   }
 }

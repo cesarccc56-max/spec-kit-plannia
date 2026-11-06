@@ -12,6 +12,7 @@ is published in the [Presets guide](https://github.github.io/spec-kit/presets/ov
 | `catalog.community.json` | Community discovery catalog |
 | `lean/` | Bundled lean process preset |
 | `constitution-sync/` | Bundled, opt-in constitution synchronization preset |
+| `plannia-web/` | Bundled Plannia preset for client websites (fork-specific) |
 | `scaffold/` | Example package to copy when authoring a preset |
 | `self-test/` | Repository test fixture for preset contributions |
 
